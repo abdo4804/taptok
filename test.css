@@ -1,0 +1,95 @@
+/* Inspired by Taptok's minimalist aesthetic */
+
+/* Global font & color */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+}
+
+/* Brand accent color (electric blue) */
+:root {
+  --accent: #0066ff;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+header h1 {
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+header span {
+  color: var(--accent);
+}
+
+/* Navigation links */
+nav a {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+/* Hero Section */
+section.hero h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+section.hero p {
+  color: #555;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--accent);
+  color: #fff;
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0044aa;
+}
+
+.btn-outline {
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: #f0f6ff;
+}
+
+/* Cards (products) */
+.product-card {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #fafafa;
+  font-size: 0.9rem;
+  color: #555;
+}
